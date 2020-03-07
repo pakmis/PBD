@@ -1,0 +1,5 @@
+valor_pes = float( input("Digite o valor a ser calculado (em pés): "))
+print(f"O valor em pés é: {valor_pes}")
+print(f"O valor em polegas é: {valor_pes*12}")
+print(f"O valor em jardas é: {valor_pes/3}")
+print(f"O valor em milhas é: {valor_pes/3/1760}")

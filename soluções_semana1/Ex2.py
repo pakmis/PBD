@@ -1,0 +1,5 @@
+salario = float(input ("Digite o valor do seu salário: "))
+print(f'O seu salario base é : R${salario}')
+print(f'A gratificação sobre o salário tem o valor de: R${salario*0.05}')
+print(f'O imposto sobre o salário tem o valor de: R${salario*0.07}')
+print(f'O valor do seu salario final é: R${salario-salario*0.07+salario*0.05}')
